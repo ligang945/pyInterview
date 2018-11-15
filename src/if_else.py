@@ -20,5 +20,5 @@ print(mydict)
 # print(mytuple)
 
 
-a = '1\r@ 3\n4	5;6,7'.split()
+a = '1\r@ 3\n4	5;6,7\r\n8\r\n'.split()
 print(a)

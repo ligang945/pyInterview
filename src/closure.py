@@ -1,9 +1,10 @@
 def generate_counter():
-    CNT = [0]
+    count = 0
 
     def add_one():
-        CNT[0] = CNT[0] + 1
-        return CNT[0]
+        nonlocal count
+        count += 1
+        return count
     return add_one
 counter = generate_counter()
 print(counter())   # 1
